@@ -6,7 +6,8 @@
     android:layout_height="300dp"
     android:layout_marginLeft="5dp"
     android:layout_marginRight="5dp"
-    android:layout_marginBottom="10dp">
+    android:layout_marginBottom="10dp"
+    android:background="#EA8888">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -26,6 +27,7 @@
                 android:text="Nombre del pais "
                 android:textAlignment="center"
                 android:textAllCaps="true"
+                android:textColor="#000000"
                 android:textSize="28sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -52,6 +54,7 @@
                     android:layout_width="109dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="#ED8A6C"
                     android:gravity="center"
                     android:text="Confirmados"
                     android:textAlignment="center"
@@ -63,6 +66,8 @@
                     android:layout_width="102dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="#C57171"
+                    android:backgroundTint="#E39090"
                     android:gravity="center"
                     android:text="Muertos"
                     android:textAlignment="center"
@@ -75,6 +80,8 @@
                     android:layout_width="89dp"
                     android:layout_height="112dp"
                     android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#93DC78"
                     android:gravity="center"
                     android:text="Recuperados"
                     android:textAlignment="center"
